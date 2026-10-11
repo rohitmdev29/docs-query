@@ -4,8 +4,9 @@ python-multipart==0.0.12
 langchain==0.3.7
 langchain-openai==0.2.8
 langchain-community==0.3.5
+langchain-text-splitters==0.3.2
 chromadb==0.5.15
-openai==1.51.0
+openai==1.54.0
 pypdf==5.0.1
 rank-bm25==0.2.2
 tiktoken==0.8.0
