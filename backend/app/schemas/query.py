@@ -15,6 +15,8 @@ class QueryRequest(BaseModel):
     question: str
     doc_id: str | None = None
     top_k: int = 5
+    
+    search_type: str = "hybrid"  
 
 
 class SourceItem(BaseModel):
